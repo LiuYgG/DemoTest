@@ -30,7 +30,7 @@ git config --global user.name "YOUR NAME"                       # 设置用户�
 
 git config --global user.email "YOUR EMAIL ADDRESS"             # 设置邮箱
 
-#别名 alias
+# 别名 alias
 git config --global alias.br="branch"                 # 创建/查看本地分支
 
 git config --global alias.co="checkout"               # 切换分支
