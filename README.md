@@ -47,8 +47,6 @@ git config --global alias.pushm="push origin master"  # 提交分支
 
 git config --global alias.log="git log --oneline --graph --decorate --color=always" # 单行、分颜色显示记录
 
-git config --global alias.logg="git log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative" # 复杂显示
-
 # 创建版本库
 git clone                  # 克隆远程版本库
 
